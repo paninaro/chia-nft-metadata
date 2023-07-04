@@ -7,12 +7,13 @@ type UncheckedMetadata = {
   format: Format;
   name: string;
   description: string;
-  mintingTool?: string;
-  sensitiveContent?: SensitiveContent;
-  seriesNumber?: number;
-  seriesTotal?: number;
+  minting_tool?: string;
+  sensitive_content?: SensitiveContent;
+  series_number?: number;
+  series_total?: number;
   attributes?: Attribute[];
   collection?: Collection;
+  data?: any;
 };
 
 export default UncheckedMetadata;

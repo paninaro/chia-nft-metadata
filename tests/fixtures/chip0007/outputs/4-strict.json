@@ -1,0 +1,36 @@
+{
+  "format": "CHIP-0007",
+  "minting_tool": "mintgarden-studio",
+  "sensitive_content": false,
+  "name": "Bumble B33 # 139",
+  "description": "Art drop by Marc-O-Matic for the Ultimate Farmers Club holders.",
+  "attributes": [],
+  "series_number": 139,
+  "series_total": 250,
+  "collection": {
+    "id": "54391a4b-629e-403e-a137-c1d4688cc08b",
+    "name": "Bumble B33",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "Art drop by Marc-O-Matic for the Ultimate Farmers Club holders."
+      },
+      {
+        "type": "icon",
+        "value": "https://bafkreigous6xixv6yqhx5bgo45cnmap74wxhjkcylcbpgtq3of3uzjxjcy.ipfs.nftstorage.link/"
+      },
+      {
+        "type": "banner",
+        "value": "https://bafybeiah2gccme7nmzw47sjzzodikdhz65oqxlvwguw5j3zhtserlsdx2q.ipfs.nftstorage.link/"
+      },
+      {
+        "type": "twitter",
+        "value": "marc0matic"
+      },
+      {
+        "type": "website",
+        "value": "https://www.marcomatic.com/"
+      }
+    ]
+  }
+}

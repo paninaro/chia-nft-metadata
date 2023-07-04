@@ -2,10 +2,10 @@ import AttributeTraitType from './AttributeTraitType';
 import AttributeValue from './AttributeValue';
 
 type Attribute = {
-  traitType: AttributeTraitType;
+  trait_type: AttributeTraitType;
   value: AttributeValue;
-  minValue?: number;
-  maxValue?: number;
+  min_value?: number;
+  max_value?: number;
 };
 
 export default Attribute;

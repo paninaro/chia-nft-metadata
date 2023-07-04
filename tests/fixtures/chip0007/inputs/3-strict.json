@@ -1,0 +1,69 @@
+{
+  "format": "CHIP-0007",
+  "minting_tool": "mintgarden-studio",
+  "sensitive_content": false,
+  "name": "ChiREX Reborn #908",
+  "description": "ChiREX Reborn back to run riot on Chia Blockchain",
+  "attributes": [
+    {
+      "trait_type": "Back",
+      "value": "Red Feathers"
+    },
+    {
+      "trait_type": "Background/Region",
+      "value": "Caution"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Focused"
+    },
+    {
+      "trait_type": "Frens",
+      "value": "None"
+    },
+    {
+      "trait_type": "Hand Item",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Alien Eye of Rah"
+    },
+    {
+      "trait_type": "Jaw",
+      "value": "Flamethrower"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Avalanche"
+    },
+    {
+      "trait_type": "Legendary",
+      "value": ""
+    }
+  ],
+  "series_number": 908,
+  "series_total": 1000,
+  "collection": {
+    "id": "784c5e52-ff45-40f7-8439-217397843a16",
+    "name": "ChiREX Reborn",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "ChiREX Reborn back to run riot on Chia Blockchain!"
+      },
+      {
+        "type": "icon",
+        "value": "https://bafkreieyhlk6j6b3ubvzxtwl6myczzuvy7tu4ofqdypdxwddvfuoa7ydqe.ipfs.nftstorage.link/"
+      },
+      {
+        "type": "banner",
+        "value": "https://bafkreihw5j6axkdzuss674bsa245qrmu7rxub4tj46lqwsgnp2v7rsqnom.ipfs.nftstorage.link/"
+      },
+      {
+        "type": "twitter",
+        "value": "ChiRexNFT"
+      }
+    ]
+  }
+}

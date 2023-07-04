@@ -2,6 +2,31 @@
 
 import ErrorTag from './ErrorTag';
 
+export function throwMissingOrInvalidFieldIf(cond: boolean, fieldName: string, fieldValue: any, tag: ErrorTag) {
+  if (cond) {
+    debugger;
+    throw ParsingError.missingOrInvalidField(fieldName, fieldValue, tag);
+  }
+}
+
+export function throwInvalidFieldIf(cond: boolean, fieldName: string, fieldValue: any, tag: ErrorTag) {
+  if (cond) {
+    throw ParsingError.invalidField(fieldName, fieldValue, tag);
+  }
+}
+
+export function throwMissingPropertyIf(cond: boolean, propertyName: string, tag: ErrorTag) {
+  if (cond) {
+    throw ParsingError.missingProperty(propertyName, tag);
+  }
+}
+
+export function throwInvalidPropertyIf(cond: boolean, propertyName: string, tag: ErrorTag) {
+  if (cond) {
+    throw ParsingError.invalidProperty(propertyName, tag);
+  }
+}
+
 export default class ParsingError extends Error {
   tag: ErrorTag;
 
@@ -29,9 +54,5 @@ export default class ParsingError extends Error {
 
     this.name = 'ParsingError';
     this.tag = tag;
-  }
-
-  toString(): string {
-    return `${this.name}: ${this.message} [${this.tag}]`;
   }
 }

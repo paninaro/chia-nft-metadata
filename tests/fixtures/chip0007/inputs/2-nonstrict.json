@@ -1,0 +1,45 @@
+{
+  "name": "Chia Friends #9079",
+  "description": "10,000 eco-bit NFTs on Chia, from Chia.",
+  "sensitive_content": false,
+  "collection": {
+    "name": "Chia Friends",
+    "id": "517B1E97-F1AF-4824-A7B9-8D85E281D7B8",
+    "attributes": [
+      {
+        "type": "description",
+        "value": "10,000 eco-bit NFTs on Chia, from Chia."
+      },
+      {
+        "type": "twitter",
+        "value": "@chia_friends"
+      },
+      {
+        "type": "website",
+        "value": "https://www.chiafriends.xyz/"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Artifacts",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sky & Stars"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Marmot (Orange)"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Vipers"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Snout (Tooth)"
+    }
+  ]
+}
